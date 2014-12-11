@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="title_activity_main_menu">Menu</string>
+    <string name="title_alert_dialog_about">About MyWine</string>
+    <string name="text_alert_dialog_about">Version 1.0 Beta</string>
+
+</resources>

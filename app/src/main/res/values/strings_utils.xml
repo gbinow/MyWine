@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="utils_assync_rss_feed_started_process">Process started, waiting</string>
+
+</resources>

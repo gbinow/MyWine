@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="list_wine_label">Label: </string>
+    <string name="list_wine_year">Year: </string>
+    <string name="list_wine_grape">Grape: </string>
+    <string name="list_wine_observations">Observations: </string>
+
+    <string name="title_alert_dialog_list_wine_observations">Observations</string>
+    <string name="warning_alert_dialog_list_wine_observations">No observations</string>
+    <string name="warning_list_wine_without_connection">No internet connection found</string>
+    <string name="warning_list_wine_without_result_feed_rss">Could not get a RSS feed</string>
+
+    <string name="title_alert_dialog_list_wine_edit_delete">Wine options</string>
+    <string name="text_alert_dialog_list_wine_edit_delete_question">What do you like to do?</string>
+    <string name="text_alert_dialog_list_wine_button_edit">Edit</string>
+    <string name="text_alert_dialog_list_wine_button_delete">Delete</string>
+    <string name="text_alert_dialog_list_wine_button_cancel">Cancel</string>
+
+    <string name="text_wine_options_rating_0">Bad</string>
+    <string name="text_wine_options_rating_1">Middling</string>
+    <string name="text_wine_options_rating_2">Good</string>
+    <string name="text_wine_options_rating_3">Very Good</string>
+    <string name="text_wine_options_rating_4">Excellent</string>
+
+</resources>

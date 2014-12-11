@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="title_dialog_rss_edit">Edit RSS</string>
+    <string name="text_dialog_rss_edit_name">Name</string>
+    <string name="text_dialog_rss_edit_url">Feed url</string>
+    <string name="text_button_dialog_rss_edit_save">Save</string>
+    <string name="text_button_dialog_rss_edit_visualize">Visualize</string>
+    <string name="text_button_dialog_rss_edit_cancel">Cancel</string>
+    <string name="error_field_required_dialog_rss_edit">This field is required</string>
+
+</resources>

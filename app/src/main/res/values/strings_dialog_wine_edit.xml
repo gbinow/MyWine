@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="title_dialog_wine_edit">Edit Wine</string>
+    <string name="text_dialog_wine_edit_label">Label</string>
+    <string name="text_dialog_wine_edit_year">Year</string>
+    <string name="text_dialog_wine_edit_grape">Grape</string>
+    <string name="text_dialog_wine_edit_rating">Rating</string>
+    <string name="text_dialog_wine_edit_observations">Observations</string>
+    <string name="text_button_dialog_wine_edit_save">Save</string>
+    <string name="text_button_dialog_wine_edit_cancel">Cancel</string>
+
+    <string name="error_field_required_dialog_wine_edit">This field is required</string>
+
+</resources>

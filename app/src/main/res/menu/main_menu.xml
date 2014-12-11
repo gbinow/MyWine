@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MainMenu" >
+
+    <!--
+    <item android:id="@+id/action_example"
+        android:title="Exemplo action"
+        app:showAsAction="withText|ifRoom" />
+    <item android:id="@+id/action_settings_main"
+        android:title="Settings main"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    !-->
+</menu>

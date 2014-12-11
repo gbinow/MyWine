@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+        <string name="app_name">MyWine</string>
+    <!-- End App -->
+
+    <!-- Wine menu -->
+    <string name="wine_menu_order_name">Order by name</string>
+    <string name="wine_menu_order_year">Order by year</string>
+    <string name="wine_menu_add">Add wine</string>
+    <string name="rss_menu_add">Add RSS</string>
+    <!-- End Wine menu -->
+
+</resources>

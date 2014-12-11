@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="title_dialog_wine_add">Add Wine</string>
+    <string name="text_dialog_wine_add_label">Label</string>
+    <string name="text_dialog_wine_add_year">Year</string>
+    <string name="text_dialog_wine_add_grape">Grape</string>
+    <string name="text_dialog_wine_add_rating">Rating</string>
+    <string name="text_dialog_wine_add_observations">Observations</string>
+    <string name="text_button_dialog_wine_add_save">Save</string>
+    <string name="text_button_dialog_wine_add_cancel">Cancel</string>
+
+    <string name="error_field_required_dialog_wine_add">This field is required</string>
+
+    <string name="text_dialog_wine_options_rating_0">Bad</string>
+    <string name="text_dialog_wine_options_rating_1">Middling</string>
+    <string name="text_dialog_wine_options_rating_2">Good</string>
+    <string name="text_dialog_wine_options_rating_3">Very Good</string>
+    <string name="text_dialog_wine_options_rating_4">Excellent</string>
+
+
+</resources>
