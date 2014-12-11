@@ -9,6 +9,7 @@
   <br>Gustavo Binow</i>
 </p>
 ====
-<p>
-Test
-</p>
+<h3>About</h3>
+<p>MyWine is an Android mobile application developed as the coursework for the Mobile and Ubiquitous Computing module.</p>
+<h3>Documentation</h3>
+<p>All documentation is available in my individual wiki page at <a href='http://www.gcu.ac.uk/student/computerstuff/gculearn/' target='_blank'>GCU Learn</a> platform.</p>
