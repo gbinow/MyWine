@@ -5,7 +5,7 @@
     <string name="list_rss_label">Label: </string>
 
     <string name="title_alert_dialog_list_rss_edit_delete">RSS options</string>
-    <string name="text_alert_dialog_list_rss_edit_delete_question">What do you like to do?</string>
+    <string name="text_alert_dialog_list_rss_edit_delete_question">What would you like to do?</string>
     <string name="text_alert_dialog_list_rss_button_edit">Edit</string>
     <string name="text_alert_dialog_list_rss_button_delete">Delete</string>
     <string name="text_alert_dialog_list_rss_button_visualize">Visualize</string>

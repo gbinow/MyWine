@@ -5,24 +5,30 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
+import android.widget.LinearLayout;
 
 import gustavo.mywine.app.ccu.LoginActivity;
+import gustavo.mywine.app.model.IntroductionView;
+import gustavo.mywine.app.util.Functions;
 
 
 public class Main extends Activity {
 
-    private int time = 2500;
+    private final int time = 5000;
     private Thread splashTread;
-    private int condition;
+
+    private LinearLayout introductionView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        this.condition = 1;
-        startSplashScreen();
+        this.introductionView = (LinearLayout) findViewById(R.id.introduction_view);
+        this.introductionView.addView(new IntroductionView(getApplicationContext()));
+        Functions.alert(getApplicationContext(), getString(R.string.text_dialog_splash_screen_view_draw_canvas));
 
+        startSplashScreen();
     }
 
     public void startSplashScreen(){
@@ -38,63 +44,16 @@ public class Main extends Activity {
 
                 } catch(InterruptedException e) {}
                 finally {
-
-                    if(getCondition()==1){
-                        /*Ending current activity*/
-                        finish();
-                        Intent i = new Intent();
-                        i.setClass(Main.this, LoginActivity.class);
-                        /*Creates a new LoginActivity*/
-                        startActivity(i);
-                    }
+                    /*Ending current activity*/
+                    finish();
+                    Intent i = new Intent();
+                    i.setClass(Main.this, LoginActivity.class);
+                    /*Creates a new LoginActivity*/
+                    startActivity(i);
                 }
             }
         };
 
         splashTread.start();
-    }
-
-    //If a key is pressed, go to the login application.
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event){
-
-        setCondition(0);
-
-        finish();
-        Intent i = new Intent();
-        i.setClass(Main.this, LoginActivity.class);
-        startActivity(i);
-
-        return(true);
-    }
-
-    //If you experience a touch on the screen, go to the login application.
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-
-        setCondition(0);
-
-        finish();
-        Intent i = new Intent();
-        i.setClass(Main.this, LoginActivity.class);
-        startActivity(i);
-
-        return(true);
-    }
-
-    public Thread getSplashTread() {
-        return splashTread;
-    }
-
-    public void setSplashTread(Thread splashTread) {
-        this.splashTread = splashTread;
-    }
-
-    public int getCondition() {
-        return condition;
-    }
-
-    public void setCondition(int condition) {
-        this.condition = condition;
     }
 }

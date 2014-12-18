@@ -4,6 +4,6 @@
 
     <string name="title_activity_main_menu">Menu</string>
     <string name="title_alert_dialog_about">About MyWine</string>
-    <string name="text_alert_dialog_about">Version 1.0 Beta</string>
+    <string name="text_alert_dialog_about">MyWine is an Android mobile application developed as the coursework for the Mobile and Ubiquitous Computing module.</string>
 
 </resources>
