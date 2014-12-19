@@ -205,7 +205,7 @@ public class LoginActivity extends Activity {
             text_buttons[0]="Cancel";
             text_buttons[1]="Yes";
 
-            Functions.alertDialog(LoginActivity.this, "New user", "Confirms creation of user login", text_buttons, new DialogInterface.OnClickListener() {
+            Functions.alertDialog(LoginActivity.this, "New user", "Confirm creation of new user?", text_buttons, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
                     }
@@ -285,7 +285,7 @@ public class LoginActivity extends Activity {
         wine.setYear(2013);
         wine.setGrape("Tempranillo");
         wine.setRating(3);
-        wine.setObservations("Tinto");
+        wine.setObservations("Red");
         wine.setUserId(userId);
         wineApl.insertObject(wine);
 
@@ -293,7 +293,7 @@ public class LoginActivity extends Activity {
         wine.setYear(1999);
         wine.setGrape("Tempranillo");
         wine.setRating(0);
-        wine.setObservations("Tinto");
+        wine.setObservations("Red");
         wine.setUserId(userId);
         wineApl.insertObject(wine);
 
@@ -301,7 +301,7 @@ public class LoginActivity extends Activity {
         wine.setYear(2010);
         wine.setGrape("Colombard");
         wine.setRating(5);
-        wine.setObservations("Bland");
+        wine.setObservations("White");
         wine.setUserId(userId);
         wineApl.insertObject(wine);
 
@@ -309,7 +309,7 @@ public class LoginActivity extends Activity {
         wine.setYear(1995);
         wine.setGrape("Malbec");
         wine.setRating(3);
-        wine.setObservations("Tinto");
+        wine.setObservations("Red");
         wine.setUserId(userId);
         wineApl.insertObject(wine);
 
@@ -325,7 +325,7 @@ public class LoginActivity extends Activity {
         wine.setYear(2011);
         wine.setGrape("Colombard");
         wine.setRating(5);
-        wine.setObservations("Tinto");
+        wine.setObservations("Red");
         wine.setUserId(userId);
         wineApl.insertObject(wine);
 
